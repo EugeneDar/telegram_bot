@@ -173,7 +173,8 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    f = open('keys/telegram_token', 'r')
-    TELEGRAM_TOKEN = f.readline()
-    f.close()
-    main()
+    print('Hello there')
+    #f = open('keys/telegram_token', 'r')
+    #TELEGRAM_TOKEN = f.readline()
+    #f.close()
+    #main()
