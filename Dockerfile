@@ -4,4 +4,4 @@ RUN pip install python-telegram-bot -U --pre
 
 COPY . .
 
-RUN python3 main.py
+ENTRYPOINT ["python3", "./main.py", "PASTE_TOKEN_HERE"]
