@@ -6,12 +6,8 @@ services:
     build:
       context: .
     command: tail -F anything
-    ports:
-      - 1234:1234
   server-2:
     container_name: other_bot
     build:
       context: .
     command: tail -F anything
-    ports:
-      - 1234:1234
